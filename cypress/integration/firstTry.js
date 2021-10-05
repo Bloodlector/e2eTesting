@@ -11,7 +11,7 @@ context("Counter main", () => {
         cy.get('.cart')//найти кнопку перехода в корзину
         cy.get('.cart').click() //перейти в корзину
         cy.get('.head-logo') //найти кнопку перехода на главную страницу
-        cy.get('.head-logo').click() //нажать кнопку перехода на главную страницу
+        cy.get('.head-logo').click() //нажать кнопку перехода на главную страницу)
     });
     it("Проверка ховеров", () => {
         cy.get('.feature-center').focus()
